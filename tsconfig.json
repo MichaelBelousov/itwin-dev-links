@@ -1,0 +1,22 @@
+{
+  "include": ["."],
+  "exclude": ["**/*.test.ts", "**/*.test.tsx", "node_modules", "lib"],
+  "compilerOptions": {
+    "rootDir": ".",
+    "target": "ES6",
+    "module": "commonjs",
+    "lib": ["ESNext", "dom"],
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "alwaysStrict": true,
+    "strict": true,
+    "declarationMap": true,
+    "declaration": true,
+    "inlineSourceMap": true,
+    "outDir": "lib",
+    "incremental": true,
+    "jsx": "react",
+  }
+}
